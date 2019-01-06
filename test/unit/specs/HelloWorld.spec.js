@@ -1,5 +1,6 @@
 import Vue from 'vue';
-import HelloWorld from '@/components/HelloWorld';
+import HelloWorld from '@/components/Navbar';
+import { describe, it, expect } from 'test';
 
 describe('HelloWorld.vue', () => {
   it('should render correct contents', () => {

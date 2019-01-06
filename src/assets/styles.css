@@ -29,6 +29,12 @@
   background-color: #111;
 }
 
+.options {
+  float: right;
+  margin-bottom: 10px;
+  border-radius: 50%;
+}
+
 .centered{
   text-align: center;
 }

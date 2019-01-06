@@ -5,6 +5,7 @@
     <h4 v-if="isFetching && !error">Cargando datos</h4>
     <div v-else>
       <h3>Tienes {{consultas.length}} consultas</h3>
+      <a class='options' href="#/consultas/new">Agregar</a>
       <table class='table'>
         <tr>
           <th>#</th>
